@@ -1,0 +1,43 @@
+<! DOCTYPE html> <html lang="pt-BR">
+<head>
+‹meta charset="UTF-8">
+‹meta name="viewport" content="width=device-width, initial-scale=1. 0"> < link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/55/bootstrap. min. css" rel="stylesheet"> ‹ title>Calculadora</title> ‹style>
+•calculator 1 max-width: 300px;
+margin: auto; padding: 20px;
+border: 1px solid #ccc;
+border- radius: 10px;
+display i font-size: 2em;
+height: 50px;
+text-align: right;
+padding: 10px;
+background: #f8f9fa; border: 1px solid #cc; border-radius: 5px; margin-bottom: 10px;
+I
+</style> </head> <body>
+‹div class="calculator">
+<input type="text" class="display" id="display" disabled>
+‹div class=" row">
+«div class="col-3"><button class="btn btn-light" onclick="appendNumber ('7')">7</button></div> «div class="col-3"><button class="btn btn-light" onclick="appendNumber ('8')">8</button></div> ‹div class="col-3"><button class="btn btn-light" onclick="appendNumber ('9')">9</button></div> «div class="col-3"><button class="btn btn-danger" onclick="setOperation('/')">/</button></div>
+</div>
+<div class="row">
+<div class="col-3"><button class="btn btn-light" onclick="appendNumber ('4' )">4</button></div> <div class="col-3"><button class="btn btn-light" onclick="appendNumber ('5')">5</button></div> «div class="col-3"><button class="btn btn-light" onclick="appendNumber ('6')">6</button></div>
+‹div class="col-3"><button class="btn btn-danger" onclick="setOperation('*')">
+*^
+/button</div>
+</div>
+<div class="row">
+«div class="col-3"><button class="btn btn-light" onclick="appendNumber ('1' )">1</button></div> ‹div class="col-3"><button class="btn btn-light" onclick="appendNumber ('2' )">2</button></div> <div class="col-3"><button class="btn btn-light" onclick="appendNumber ('3')">3</button></div> <div class="col-3"><button class="btn btn-dander" onclick="setOperation('-')"> -< /button></div>
+    class="col-3"><button class="btn btn-light" onclick="appendNumber('©')">@</button></div>
+
+
+<div class="col-3"><button class="btn btn-success" onclick="calculate()"> = /button></div>
+
+
+<div class="col-3"><button class="btn btn-danger" onclick="setOperation('+')">+</button>/div>
+
+
+<div class="col-3"><button class="btn btn-secondary" onclick="clearDisplay ()">C</button></div>
+s/div
+</div>
+=/div>
+script src="script.js">/script>
+/body> /html>
